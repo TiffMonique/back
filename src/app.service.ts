@@ -4,7 +4,7 @@ import { Db } from 'mongodb';
 @Injectable()
 export class AppService {
   constructor(
-    //@Inject('NOTE') private notes: any[],
+    //@Inject('NOTE') private notes: any[z],
     @Inject('MONGO') private database: Db,
   ) {}
 
